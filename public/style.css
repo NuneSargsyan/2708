@@ -1,0 +1,427 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+header a {
+	text-decoration: none;
+	color:white;
+}
+header a:hover{
+	text-decoration: none;
+	color:gray	;
+}
+.products{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.products a{
+	display: flex;
+    flex-direction: column-reverse;
+}
+.products>div{
+	width: 21%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 10px;
+}
+.products img{
+	width: 80%;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+}
+.menu ul li {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.login {
+	display: flex;
+}
+.login p {
+	padding-right: 15px;
+}
+.login>div i:hover {
+	cursor: pointer;
+	color: #ccc;
+}
+
+.categories {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.right {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.right>div {
+	width: 33%;
+	height: auto;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.right>div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+.right>div a h2 {
+	position: absolute;
+	top: 30%;
+	font-style: italic;
+	padding-left: 15px;
+}
+
+form {
+	width: 100%;
+	height: auto;
+	
+}
+form input,select{
+	width: 40%;
+	height: 40px;
+	display: block;
+	
+	margin-bottom: 15px;
+	background:inherit;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+}
+form button {
+	width: 15%;
+	height: 40px;
+	background:aqua;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 17px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-top: 2px solid #ccc;
+	background:#9a9a9a;
+	color: #fff;
+	margin-top: 20px;
+}
+
+
+ .slider {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    }
+
+    .slick-slide {
+    width: 25%;
+	height:auto;
+    margin:15px 15px;
+    overflow: hidden;
+    }
+
+    .slick-slide img {
+     width: 100%;
+      height: auto;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+.page3 {
+	width: 100%;
+	height: 60vh;
+	background-image: url(./img/Banner2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 100;
+}
+.page3 h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+.home-img {
+	width: 100%;
+	height: 80vh;
+}
+.home-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.adress p {
+	font-size: 17px;
+	text-align: center;
+	color: blue;
+}
+.search form{
+	display: flex;
+}
+.search form button {
+	width: 120px;
+	height: 40px;
+}
+.search i {
+	padding-left: 10px;
+}
+table {
+	width: 100%;
+	height: auto;
+	border: 1px solid blue;
+	font-size: 20px;
+}
+table tr {
+	border: 1px solid blue;
+}
+table img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.images {
+	width: 250px;
+	height: 400px;
+	object-fit: cover;
+}
+header {
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid #ccc;
+	background: #000;
+	color: #fff
+}
+header>div{
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	width: 25%;
+	height: 100px;
+}
+.logo img {
+	width: 100px;
+	height:100px;
+	
+}
+.slide{
+	width: 100%;
+	height:100vh;
+	margin-bottom: 20px;
+}
+.carousel-inner{
+	width: 100%;
+	height: 100vh;
+}
+.item{
+	width: 100%;
+	height: 100vh;
+}
+.item img{
+	width:100%;
+	height:100%!important;
+}
+.page2 {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.page2>div {
+	width: 30%;
+	height: 400px;
+	text-align: center;
+}
+.page2>div img {
+	width: 100%;
+	height: auto;
+}
+.page4 {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.page4>div {
+	width: 90%;
+	height: auto;
+}
+.page4>div img {
+	width: 100%;
+	height: auto;
+}
+.page5 {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.page5>div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.page5>div>div a{
+	display: flex;
+	width: 30%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.page5>div>div img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.navbar {
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	background: #000;
+	color: #fff;
+
+}
+
+.navbar ul {
+	list-style: none;
+}
+.navbar ul li {
+	line-height: 50px;
+	font-size: 25px;
+	padding-left: 20px;
+}
+select {
+	margin: auto;
+}
+.product-page {
+	display: flex;
+}
+.product-img {
+	width: 50%;
+	height: auto;
+}
+.product-img img {
+	width: 100%;
+	height: auto;
+}
+.product-text{
+	width: 45%;
+	color: #555;
+	text-transform: uppercase;
+	height: 70vh;
+	margin: auto;
+	position: relative;
+}
+.product-text input {
+	width: 70px;
+	height: 50px;
+}
+.product-text button {
+	width: 70px;
+
+}
+
+
+#icon2 {
+	display: none;
+}
+.search1 {
+	position: relative;
+}
+.search1 ul li {
+	position: absolute;
+	list-style: none;
+	right: 0;
+}
+.search1 ul {
+	display: none;
+	list-style: none;
+}
+.search1 i {
+	line-height: 43px;
+}
+.submenu2{
+	position: absolute;
+	display: none;
+}
+.submenu2  input {
+	width:150px;
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 15px;
+	background: #fff;
+	border: 0;
+	border-top:2px solid #fff;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	color: black;
+}
+
+@keyframes example {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+.duxi {
+	animation-name: example;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+.page2>div img {
+	transition:2s;
+}
+.page2>div:hover img {
+	transform: rotateY(180deg);
+}
+.conf {
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	border: 0;
+	background: #333;
+	color: #fff;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
